@@ -1,4 +1,4 @@
-function makeToUpperCase(str){
-  console.log(str.toUpperCase()); 
+function makeToUpperCase(str) {
+  console.log(str.toUpperCase());
 }
-makeToUpperCase("hi everyone");
+makeToUpperCase('hi everyone');

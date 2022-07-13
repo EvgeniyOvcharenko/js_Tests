@@ -1,9 +1,9 @@
-function doubleChar(str){
-  let word = "";
-  for(let letter of str){
+function doubleChar(str) {
+  let word = '';
+  for (let letter of str) {
     letter = letter.repeat(2);
     word += letter;
   }
   console.log(word);
 }
-doubleChar("s7fa1");
+doubleChar('s7fa1');

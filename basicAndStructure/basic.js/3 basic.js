@@ -4,7 +4,7 @@ function reverse(str){
   let reverseArray = strToArray.reverse();
   console.log(reverseArray);
   
-  let newReverseArray = reverseArray.filter(key => key !== "")
+  let newReverseArray = reverseArray.filter(key => key !== "") // up it
   console.log(newReverseArray)
   
   let reverseStr = newReverseArray.join(" ");

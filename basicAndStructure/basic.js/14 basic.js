@@ -1,18 +1,18 @@
-let firstNum = +prompt("First Number","");
-let secondNum = +prompt("Second Number","");
-let actionForNumbers = prompt("Action 'add' or 'subtract' or 'multiply' or 'divide'","add");
-function arithmetic(a, b, action){
+let firstNum = +prompt('First Number', '');
+let secondNum = +prompt('Second Number', '');
+let actionForNumbers = prompt("Action 'add' or 'subtract' or 'multiply' or 'divide'", 'add');
+function arithmetic(a, b, action) {
   switch (action) {
-    case "add":
+    case 'add':
       console.log(a + b);
       break;
-    case "subtract":
-      console.log(a - b)
+    case 'subtract':
+      console.log(a - b);
       break;
-    case "multiply":
+    case 'multiply':
       console.log(a * b);
       break;
-    case "divide":
+    case 'divide':
       console.log(a / b);
       break;
     default:

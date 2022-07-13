@@ -1,9 +1,8 @@
-function areYouPlayBanjo(name){
-  if(name[0] === "R" || name[0] === "r"){
+function areYouPlayBanjo(name) {
+  if (name[0] === 'R' || name[0] === 'r') { // name[0].toLowerCase() === 'r';
     console.log(`${name} plays banjo`);
-  }
-  else{
+  } else {
     console.log(`${name} does not play banjo`);
   }
 }
-areYouPlayBanjo("Putler");
+areYouPlayBanjo('Putler');
