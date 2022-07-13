@@ -1,7 +1,7 @@
 /* задача 15
 function likes(namesArray) {
   let result;
-
+ 
   if(!namesArray.length){
     result = "no one likes this";
   }

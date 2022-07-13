@@ -3,7 +3,7 @@
   console.log(arguments.callee.name);
 })();
 */
-
+ 
 
 /* задача 16                              ( ! )
 const refreshStudentList = function(){
